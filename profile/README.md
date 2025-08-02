@@ -1,29 +1,9 @@
 <div align="center">
 
-<img src="https://github.com/mehah/otclient/blob/main/data/images/clienticon.png?raw=true" align="center" width="44px" height="44px"/>
+<img src="https://www.kongbakpao.com/wp-content/uploads/2016/06/kbp_saomd_banner.png" align="center" width="400px" height="295px"/>
 
-### Sword Art Online: Aincrad Tibia
-
-_... [Canary](https://github.com/opentibiabr/canary), [Mehah OTClient](github.com/mehah/otclient) on [Kamatera](https://www.kamatera.com/)_ :octocat:
-
-Step into Aincrad, a world inspired by Sword Art Online, where progression is driven by floor-based exploration, powerful bosses, and hidden secrets. Every floor offers new challenges, requiring strategy, teamwork, and skill to advance.
-
-</div>
-
-<div align="center">
-
-[![Kubernetes](https://img.shields.io/static/v1?label=K3s&message=v1.30.2&color=blue&style=for-the-badge&logo=kubernetes&logoColor=white)](https://k3s.io/)&nbsp;&nbsp;
-[![Discord](https://img.shields.io/discord/963390461215662100?style=for-the-badge&label&logo=discord&logoColor=white&color=blue)](<[https://discord.gg/963390461215662100](https://discord.gg/JUmAqgHY9S)>)&nbsp;&nbsp;
-[![Renovate](https://img.shields.io/github/actions/workflow/status/tibia-oce/infrastructure/renovate.yaml?branch=master&label=&logo=renovatebot&style=for-the-badge&color=blue)](https://github.com/tibia-oce/infrastructure/actions/workflows/renovate.yaml)
-
-</div>
-
-<div align="center">
-
-[![Server](https://img.shields.io/static/v1?label=Server&message=Online&color=brightgreen&style=for-the-badge&logo=v&logoColor=white)](https://status.aincrad.dev/endpoints/tibia_tibia-server)&nbsp;&nbsp;
-[![Website](https://img.shields.io/static/v1?label=Website&message=Online&color=brightgreen&style=for-the-badge&logo=statuspage&logoColor=white)](https://myaac.aincrad.dev/)&nbsp;&nbsp;
-
-</div>
+_Step into Aincrad, a world inspired by Sword Art Online, where progression is driven by floor-based exploration, powerful bosses, and hidden secrets._
+_Every floor offers new challenges, requiring strategy, teamwork, and skill to advance._
 
 ###
 
@@ -36,6 +16,14 @@ Step into Aincrad, a world inspired by Sword Art Online, where progression is dr
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg" height="40" width="52" alt="php logo"  />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="40" width="52" alt="typescript logo"  />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" width="52" alt="python logo"  />
+</div>
+
+_... [Canary](https://github.com/opentibiabr/canary), [Mehah OTClient](https://github.com/mehah/otclient) on [Kamatera](https://www.kamatera.com/)_ :octocat:
+
+<div align="center">
+
+[![Discord](https://img.shields.io/discord/963390461215662100?style=for-the-badge&label&logo=discord&logoColor=white&color=blue)](<[https://discord.gg/963390461215662100](https://discord.gg/JUmAqgHY9S)>)&nbsp;&nbsp;
+
 </div>
 
 ###
