@@ -20,6 +20,8 @@ _Every floor offers new challenges, requiring strategy, teamwork, and skill to a
 
 _... [Canary](https://github.com/opentibiabr/canary), [Mehah OTClient](https://github.com/mehah/otclient) on [Kamatera](https://www.kamatera.com/)_ :octocat:
 
+###
+
 <div align="center">
 
 [![Discord](https://img.shields.io/discord/963390461215662100?style=for-the-badge&label&logo=discord&logoColor=white&color=blue)](<[https://discord.gg/963390461215662100](https://discord.gg/JUmAqgHY9S)>)&nbsp;&nbsp;
