@@ -1,19 +1,83 @@
 # Contributing Guidelines
 
-Thank you for considering contributing to our project!
+## Installation
 
-## How to Contribute
+We follow a structured workflow to keep the codebase consistent, automated, and release-ready.
 
-1. Fork the repository and create your branch from `main`.
-2. Write clear and concise commit messages.
-3. Test your code thoroughly before submitting a pull request.
-4. Submit a Pull Request with a clear description of the changes.
+## Development Workflow
 
-## Code Style
+- Keep branches small and focused on a single change.
+- Write clear commit messages following our [Conventional Commits](#commit-message-conventions) standard.
+- Ensure your code is linted and tested before opening a pull request:
+  ```bash
+  make lint
+  make test
+  ```
+- Update or add relevant documentation (e.g., README, usage instructions).
 
-- Follow existing formatting and naming conventions.
-- Keep pull requests focused and small where possible.
+## Pull Requests
 
-## Reporting Issues
+- Target the appropriate branch:
+  - **`develop`** for ongoing work and pre-releases (alpha versions).
+  - **`main`** for stable, production-ready code.
+- Keep PRs small and focused.
+- Include a clear description of your changes.
+- Reference related issues (e.g., `Closes #42`).
+- PRs must pass all CI checks before merging.
 
-- Use the issue templates provided to report bugs or suggest features.
+## Commit Message Conventions
+
+We use [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/#summary)  
+to enable automated versioning and changelog generation via **semantic-release**.
+
+### Format:
+
+```
+<type>(optional scope): <description>
+
+[optional body]
+
+[optional footer]
+```
+
+### Common Types:
+
+- **feat:** A new feature.
+- **fix:** A bug fix.
+- **docs:** Documentation-only changes.
+- **style:** Changes that do not affect functionality (formatting, missing semicolons, etc.).
+- **refactor:** Code changes that neither fix a bug nor add a feature.
+- **test:** Adding or updating tests.
+- **chore:** Maintenance tasks (build scripts, dependencies) that don't affect runtime code.
+
+### Examples:
+
+```
+feat(api): add user authentication endpoint
+fix(ui): correct button alignment on mobile view
+docs: update contributing guidelines
+```
+
+> **Tip:** Use `BREAKING CHANGE:` in the footer for changes that break backward compatibility.  
+> This will trigger a **major version bump** automatically.
+
+## Testing
+
+- Write tests for all new features and bug fixes.
+- Ensure tests pass locally before submitting:
+  ```bash
+  make test
+  ```
+
+## Releasing
+
+Releases are automated via [semantic-release](https://github.com/semantic-release/semantic-release):
+
+- Merging PRs into **`develop`** triggers a pre-release (`alpha`).
+- Merging PRs into **`main`** triggers a stable release (`vX.Y.Z`) with:
+  - Changelog updates
+  - GitHub Release creation
+  - Docker image publishing
+  - Artifact packaging
+
+You do **not** need to create tags manually. The workflow handles it.
