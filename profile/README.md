@@ -23,6 +23,6 @@ _... [Canary](https://github.com/opentibiabr/canary), [Mehah OTClient](https://g
 
 <div align="center">
 
-[![Discord](https://img.shields.io/discord/963390461215662100?style=for-the-badge&label&logo=discord&logoColor=white&color=blue)](<[https://discord.gg/963390461215662100](https://discord.gg/JUmAqgHY9S)>)&nbsp;&nbsp;
+[![Discord](https://img.shields.io/discord/963390461215662100?style=for-the-badge&logo=discord&logoColor=white&color=blue)](https://discord.gg/JUmAqgHY9S)
 
 </div>
